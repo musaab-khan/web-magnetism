@@ -1,0 +1,25 @@
+/* Welcome.module.css */
+  .wc1::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 13%;
+    background-color: #785EEB;
+    z-index: -1;
+    border-radius: 8px;
+  }
+  .wc2::before {
+    content: '';
+    position: absolute;
+    width: 13%;
+    right: -10%;
+    height: 80%;
+    background-color: #785EEB;
+    z-index: -1;
+    top: 10%;
+    border-radius: 8px;
+  }
+  
