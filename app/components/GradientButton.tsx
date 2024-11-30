@@ -12,7 +12,7 @@ interface GradientButtonProps {
 const GradientButton: React.FC<GradientButtonProps> = ({ propClass, gradientStyle, buttonText }) => {
   return (
     <button
-      className={`${propClass} flex justify-between items-center gap-4 rounded-full border-2 py-3 px-10 font-medium text-white`}
+      className={`${propClass}   rounded-full border-2 py-3 px-10 font-medium text-white w-fit h-fit`}
       style={{ background: gradientStyle }}
     >
       <span>{buttonText}</span>

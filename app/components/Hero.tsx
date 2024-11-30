@@ -1,5 +1,5 @@
 import React from 'react'
-import { arrow, waves,curves } from '@/public/assets/assets'
+import { waves } from '@/public/assets/assets'
 import Image from 'next/image'
 import GradientButton from './GradientButton'
 
