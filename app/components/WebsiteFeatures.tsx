@@ -6,8 +6,9 @@ import ChooseUsCard from './ChooseUsCard'
 
 const WebsiteFeatures = () => {
   return (
-    <>
-        <div className='flex flex-col lg:flex-row lg:justify-between p-10' style={{background: 'linear-gradient(102.26deg, #5B53F9 -13.11%, #AC71D6 36.24%, #FF8E57 110.26%)'}}>
+    <div className='pt-[10vh] bg-[#F3F2FF]'>
+      <div className='bg-[#F3F2FF] h-[20vh] rounded-[50%] absolute w-[100vw] mt-[-10vh]'></div>
+        <div className='pt-[16vh] flex flex-col lg:flex-row lg:justify-between p-10' style={{background: 'linear-gradient(102.26deg, #5B53F9 -13.11%, #AC71D6 36.24%, #FF8E57 110.26%)'}}>
             <div className='flex flex-col w-full justify-start gap-4 basis-[40%] p-2 text-white'>
                 <h1 className='font-semibold text-4xl'>Our Bespoke Website Includes The Following</h1>
                 <p>Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus vulputate aenean aliquam accumsan vestibulum in sit Blandit sodales lacus vulputate aenean aliquam accumsa</p>
@@ -20,7 +21,7 @@ const WebsiteFeatures = () => {
             <ChooseUsCard></ChooseUsCard>
             </div>
         </div>
-    </>
+    </div>
   )
 }
 

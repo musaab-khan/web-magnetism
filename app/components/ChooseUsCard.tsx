@@ -10,9 +10,9 @@ const ChooseUsCard = () => {
                     <Image src={takeControl} alt='' fill></Image>
                 </div>
             </div>
-            <h3 className='text-xl font-semibold'>Take Control of Your Entire Marketing Landscape</h3>
+            <h3 className='text-[1.75rem] font-semibold  2xl:text-3xl'>Take Control of Your Entire Marketing Landscape</h3>
         </div>
-        <p>
+        <p className='2xl:text-2xl'>
         We've curated top-tier teams under one roof, enabling you to bypass the complexities of overseeing a network of agencies and internal hires.
         </p>
     </div>

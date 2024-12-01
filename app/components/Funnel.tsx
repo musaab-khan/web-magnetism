@@ -6,8 +6,8 @@ const Funnel = () => {
   return (
     <div className=' relative'>
     <div className='pb-[11rem] flex flex-col justify-center items-center lg:p-10 text-center w-[70%] m-auto gap-6'>
-        <h2 className='text-[2.5rem] font-semibold'>An Integrated Team for unique Web design and strategic digital marketing</h2>
-        <p className='px-10'>Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus vulputate aenean aliquam accumsan vestibulum in sit Blandit sodales lacus vulputate aenean aliquam accumsan vestibulum in sit m accumsan.</p>
+        <h2 className='text-[2rem] font-semibold  2xl:text-4xl'>An Integrated Team for unique Web design and strategic digital marketing</h2>
+        <p className='px-10 2xl:text-2xl'>Lorem ipsum dolor sit amet consectetur. Blandit sodales lacus vulputate aenean aliquam accumsan vestibulum in sit Blandit sodales lacus vulputate aenean aliquam accumsan vestibulum in sit m accumsan.</p>
         <div className="h-fit w-fit m-auto ">
           <Image src={funnel} alt=""></Image>
         </div>

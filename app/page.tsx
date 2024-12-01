@@ -10,6 +10,7 @@ import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import MessageForm from "./components/MessageForm";
 import Footer from "./components/Footer";
+import News from "./components/News";
 import FullScreen from "./components/FullScreen";
 import { Montserrat } from 'next/font/google';
 const montserrat = Montserrat({ subsets: ['latin'] });
@@ -27,6 +28,7 @@ export default function Home() {
       <Partners/>
       <Portfolio></Portfolio>
       <Testimonials></Testimonials>
+      <News></News>
       <MessageForm></MessageForm>
       <Footer></Footer>
       <FullScreen/>

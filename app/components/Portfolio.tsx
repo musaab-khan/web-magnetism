@@ -9,7 +9,7 @@ const Portfolio = () => {
     <div className=' p-10'>
         <div className="gap-4 md:gap-0 flex flex-col md:flex-row justify-between my-5">
             <div className="flex flex-col basis-1/2">
-                <h2 className='font-semibold text-2xl'>Our Work</h2>
+                <h2 className='text-[2rem] font-semibold  2xl:text-4xl'>Our Work</h2>
                 <p>We dont claim to be gurus or wizards. Were just a super experienced, passionate team who knows how to get results for our clients. All our work is custom and thoughtfully designed, written, and developed with your business goals in mind.</p>
             </div>
             <div className='flex justify-center items-center md:justify-end md:items-end basis-[30%]'>

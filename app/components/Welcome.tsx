@@ -9,7 +9,7 @@ const Welcome = () => {
     <div className='flex min-h-screen 2xl:min-h-[50vh] justify-center p-10 flex-wrap flex-col lg:flex-row'>
         <div className="p-4 text basis-1/2 flex flex-col justify-center items-start w-[80%] 2xl:gap-8 2xl:text-justify 2xl:p-10">
             <h2 className='text-[2rem] font-semibold  2xl:text-4xl'>Welcome To Web Magnetism</h2>
-            <div className='flex gap-3 flex-col  2xl:text-4xl pb-5 pt-2'>
+            <div className='flex gap-3 flex-col  2xl:text-2xl pb-5 pt-2'>
                 <p>Your hub for bespoke web design and digital marketing success. We seamlessly merge creativity and SEO expertise to craft visually stunning websites that magnetize audiences.</p>
                 <p>Our digital marketing, from SEO mastery to impactful campaigns, ensures your brand's resonance online. At Web Magnetism, we're not just designers; we're digital architects, sculpting unique online experiences that elevate your brand.</p>
                 <p>Navigate the digital landscape with confidence - choose Web Magnetism for tailored web design and strategic digital marketing, where innovation meets results for a compelling online journey.</p>

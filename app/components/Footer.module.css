@@ -1,0 +1,11 @@
+.gradientHr{
+ border: 0;
+}
+.gradientHr::before{
+    content: '';
+    height: 3px;
+    width: 85%;
+    top: 10px;
+    background: linear-gradient(102.26deg, #5B53F9 -13.11%, #AC71D6 36.24%, #FF8E57 110.26%);
+    position: absolute;
+}
