@@ -6,7 +6,7 @@ import styles from './Welcome.module.css'
 
 const Welcome = () => {
   return (
-    <div className='flex min-h-screen 2xl:min-h-[50vh] justify-center p-10 flex-wrap flex-col lg:flex-row'>
+    <div className='overflow-hidden flex min-h-screen 2xl:min-h-[50vh] justify-center p-10 flex-wrap flex-col lg:flex-row'>
         <div className="p-4 text basis-1/2 flex flex-col justify-center items-start w-[80%] 2xl:gap-8 2xl:text-justify 2xl:p-10">
             <h2 className='text-[2rem] font-semibold  2xl:text-4xl'>Welcome To Web Magnetism</h2>
             <div className='flex gap-3 flex-col  2xl:text-2xl pb-5 pt-2'>

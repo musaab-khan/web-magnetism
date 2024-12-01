@@ -11,14 +11,14 @@ const MessageForm = () => {
                 <p   className='2xl:text-2xl'>We are always happy to discuss your project with you and put together a free proposal.</p>
             </div>
             <div  className={` bg-white p-10 flex flex-col justify-center items-start gap-4 rounded-xl `}>
-                <h1 className="text-2xl font-semibold dark:text-white">Send us a message today</h1>
+                <h2 className="text-2xl font-semibold">Send us a message today</h2>
                 <input type="text" placeholder="Name" className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"/>
                 <input type="email" placeholder="Email" className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"/>
                 <input type="text" placeholder="Company" className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"/>
                 <input type="number" placeholder="Phone Number" className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"/>
                 <input type="file" placeholder="Send Us Your Brief" className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"/>
                 <textarea name="" id="" cols={30} rows={5} placeholder="Enter your message here..." className=" w-full px-6 py-3 border-2 border-gray-200 rounded-xl"></textarea>
-                <GradientButton propClass='' buttonText='Send Us a Message' gradientStyle='black'></GradientButton>
+                <button className="btn rounded-md m-auto py-2 text-white flex-grow w-[90%]" style={{background:"linear-gradient(103.22deg, #5B53F9 0%, #AC71D6 40.58%, #FF8E57 101.45%)"}}>Send Us A Message</button>
             </div>
         </section>
     </div>
