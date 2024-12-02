@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
 
 interface ServicesCardProps {
     imageSrc: string;
@@ -22,9 +22,9 @@ const TestimonialsCard : React.FC<ServicesCardProps> = ({ imageSrc,reference }) 
                 <Image className="size-4 text-yellow-400" height={50} width={50} alt="" src='./assets/star.svg'></Image>
             </div>
           <p className="text-md">The WP Estate team did an outstanding job helping me buy my first home. The high level of service and dedication</p>
-              <div className="flex flex-row justify-between items-center gap-1">
+              <div className="flex flex-row justify-between items-center gap-1 w-full">
                   <h3 className="text-xl">Albert adame</h3>
-                  <h4 className="">Read More</h4>
+                  <span className="text-transparent underline !bg-clip-text" style={{background:'linear-gradient(103.47deg, #5B53F9 22.39%, #AC71D6 46.68%, #FF8E57 83.1%)'}}>Read More</span>
               </div>
       </div>
     </div>

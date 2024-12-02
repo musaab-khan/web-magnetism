@@ -1,10 +1,9 @@
 import React from 'react'
-import GradientButton from './GradientButton'
 
 const MessageForm = () => {
   return (
     <div className="bg-[#F3F2FF] pb-10">
-        <section id="contact" className="w-full h-fit m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center lg:px-36 px-6 py-20 gap-10">
+        <section id="contact" className="w-full h-fit m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center lg:px-36 md:px-6 py-20 gap-10">
             <div className="flex flex-col justify-center items-start gap-8 lg:p-20 p-6">
                 <h2  className='text-[2.5rem] font-semibold 2xl:text-4xl'>Get in touch with us today and our team will assist you</h2>
                 <p   className='2xl:text-2xl'>Do you have a project in mind, that you feel our approach would work well for?</p>

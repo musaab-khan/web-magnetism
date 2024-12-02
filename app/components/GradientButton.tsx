@@ -11,10 +11,8 @@ interface GradientButtonProps {
 
 const GradientButton: React.FC<GradientButtonProps> = ({ propClass, gradientStyle, buttonText }) => {
   return (
-    <button
-      className={`${propClass}   rounded-full border-2 py-3 px-10 font-medium text-white w-fit h-fit`}
-      style={{ background: gradientStyle }}
-    >
+    <button className={` rounded-full py-1 px-5 md:py-3 md:px-10 font-medium ${propClass} border-2 text-white bg-transparent w-fit h-fit  `}
+      style={{ background: gradientStyle }}> 
       <span>{buttonText}</span>
       <Image src={arrow} alt="Arrow" className="inline-block" />
     </button>

@@ -7,7 +7,7 @@ const Services = () => {
   const { activeIndex, carouselRef, cardRef, handleScrollLeft, handleScrollRight } = useSlide();
 
   return (
-    <div className=' p-11'>
+    <div className=' p-4 md:11'>
         <h2 className='text-[2rem] font-semibold  2xl:text-4xl text-center my-11'>Overview of Services</h2>
         <div className="w-[90vw] md:w-auto overflow-y-scroll scroll-smooth md:overflow-hidden" ref={carouselRef}>
           <div className="flex w-[270vw] flex-row items-center justify-between md:w-[95%] md:m-auto gap-0">
